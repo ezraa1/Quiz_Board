@@ -47,27 +47,15 @@ let questionNumber = 1
 let studentScore = 0
 let wrongAnswer = 0
 let indexNumber = 0
-function nextQuestion(index) {
-    putQuestions()
-    const currentQuestion = randomQuestions[index]
-    document.getElementById("question-number").innerHTML = questionNumber
-    document.getElementById("student-score").innerHTML = studentScore
-    document.getElementById("show-question").innerHTML = currentQuestion.question;
-    document.getElementById("first-option").innerHTML = currentQuestion.optionA;
-    document.getElementById("second-option").innerHTML = currentQuestion.optionB;
-    document.getElementById("third-option").innerHTML = currentQuestion.optionC;
-    document.getElementById("fourth-option").innerHTML = currentQuestion.optionD;
-    
 
-}
 function checkForAnswer() {
     const currentQuestion = randomQuestions[indexNumber]
     const currentQuestionAnswer = currentQuestion.correctOption
     const options = document.getElementsByName("option");
     let correctOption = null
-    options.forEach((option)) => {
+    options.forEach((option) => {
         if (option.value === currentQuestionAnswer) {
             correctOption = option.labels[0].id
         }
-    }
+    })
 }
