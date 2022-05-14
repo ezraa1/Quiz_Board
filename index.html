@@ -10,7 +10,7 @@
     <script src="index.js"></script>
 </head>
 
-<body>
+<body onload="Submit">
     <h1>INSTANT QUIZ</h1>
     <p>1. What is CSS in full form?</p>
     <form>
@@ -57,9 +57,9 @@
         <input type="radio" id="d" name="CSS" value="Option d" />
           <label for="c">php</label>
     </form>
-    <div>
-        <a href="index.js">SUBMIT</a>
-    </div>
+    <div class="submit">
+                <button onclick="handleNextQuestion()">Submit</button>
+            </div>
 </body>
 
 </html>
