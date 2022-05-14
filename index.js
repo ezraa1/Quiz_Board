@@ -34,28 +34,6 @@ const questions = [
         correctOption: "optionB"
     }
 ]
-let randomQuestions = []
-function putQuestions () {
-    while (randomQuestions.length<=3) {
-        const any = questions[Math.floor(Math.any() * questions.length)]
-        if (!randomQuestions.includes(any)) {
-            randomQuestions.push(any)
-        }
-    }
-}
-let questionNumber = 1
-let studentScore = 0
-let wrongAnswer = 0
-let indexNumber = 0
-
-function checkForAnswer() {
-    const currentQuestion = randomQuestions[indexNumber]
-    const currentQuestionAnswer = currentQuestion.correctOption
-    const options = document.getElementsByName("option");
-    let correctOption = null
-    options.forEach((option) => {
-        if (option.value === currentQuestionAnswer) {
-            correctOption = option.labels[0].id
-        }
-    })
-}
+    const testContainer = document.getElementById('test');
+    const submitButton = document.getElementById('submit');
+    
