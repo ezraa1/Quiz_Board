@@ -65,5 +65,9 @@ function checkForAnswer() {
     const currentQuestionAnswer = currentQuestion.correctOption
     const options = document.getElementsByName("option");
     let correctOption = null
-    options.forEach((option)) =>
+    options.forEach((option)) => {
+        if (option.value === currentQuestionAnswer) {
+            correctOption = option.labels[0].id
+        }
+    }
 }
