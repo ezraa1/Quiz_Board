@@ -1,13 +1,15 @@
-function check ();
+function check () {
 var c= 0;
 var q1 = document.quiz.question1.value;
-var q1 = document.quiz.question1.value;
-var q1 = document.quiz.question1.value;
-var q1 = document.quiz.question1.value;
-if (q1=="js") {c++}
-if (q1=="js") {c++}
-if (q1=="js") {c++}
-if (q1=="js") {c++}
+var q2 = document.quiz.question2.value;
+var q3 = document.quiz.question3.value;
+var q4 = document.quiz.question4.value;
+if (q1=="Cascading Style Sheet") {c++}
+if (q2=="HTML") {c++}
+if (q3=="No") {c++}
+if (q4=="js") {c++}
+document.write(c);
+}
 
 
 // var questions = [{
