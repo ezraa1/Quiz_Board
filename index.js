@@ -1,57 +1,70 @@
-var questions = [{
-    question: "What is CSS in full form?",
-    answers: {
-        optionA: "Cascading Style Sheet",
-        optionB: "Cascading Size Sheet",
-        optionC: "Cascading Size Style",
-        optionD: "Cascading Style Style",
-        correctOption: "optionA"
-    }
-},
-{
-    question: "What is the short form of Hypertext Markup Language?",
-    answers: {
-        optionA: "MTHL",
-        optionB: "HMLT",
-        optionC: " HTML",
-        optionD: "LMTH",
-        correctOption: "optionC"
-    }
-},
-{
+function check ();
+var c= 0;
+var q1 = document.quiz.question1.value;
+var q1 = document.quiz.question1.value;
+var q1 = document.quiz.question1.value;
+var q1 = document.quiz.question1.value;
+if (q1=="js") {c++}
+if (q1=="js") {c++}
+if (q1=="js") {c++}
+if (q1=="js") {c++}
 
-    question: "Is C++ a low level Language?",
-    answers: {
-        optionA: "Yes",
-        optionB: "No",
-        optionC: "Both",
-        optionD: "None",
-        correctOption: "optionA"
-    }
-},
-{
-    question: "What the other name of Javascript?",
-    answers: {
-        optionA: "java",
-        optionB: "js",
-        optionC: " I don't know",
-        optionD: "php",
-        correctOption: "optionB"
-    }
-}
-]
-var score = 0;
-for (var i = 0; i < questions.length; i++){
-    var results = window.question(questions[i].question)
-    if(respoonse == questions[i].answer){
-        score++;
-        alert("correct!");
 
-    } else{
-        alert("WRONG!");
-    }
-}
-alert("you got" + score + "/" +);
+// var questions = [{
+//     question: "What is CSS in full form?",
+//     answers: {
+//         optionA: "Cascading Style Sheet",
+//         optionB: "Cascading Size Sheet",
+//         optionC: "Cascading Size Style",
+//         optionD: "Cascading Style Style",
+//         correctOption: "optionA"
+//     }
+// },
+// {
+//     question: "What is the short form of Hypertext Markup Language?",
+//     answers: {
+//         optionA: "MTHL",
+//         optionB: "HMLT",
+//         optionC: " HTML",
+//         optionD: "LMTH",
+//         correctOption: "optionC"
+//     }
+// },
+// {
+
+//     question: "Is C++ a low level Language?",
+//     answers: {
+//         optionA: "Yes",
+//         optionB: "No",
+//         optionC: "Both",
+//         optionD: "None",
+//         correctOption: "optionA"
+//     }
+// },
+// {
+//     question: "What the other name of Javascript?",
+//     answers: {
+//         optionA: "java",
+//         optionB: "js",
+//         optionC: " I don't know",
+//         optionD: "php",
+//         correctOption: "optionB"
+//     }
+// }
+// ]
+// var window
+// var score = 0;
+// for (var i = 0; i < questions.length; i++){
+//     var response = window.prompt(questions[i].question)
+//     if(response == questions[i].answers){
+//         score++;
+//         alert("correct!");
+
+//     } else{
+//         alert("WRONG!");
+//     }
+// }
+// alert("you got" + score + "/" + questions.length2);
 
 //     const testContainer = document.getElementById('test');
 //     const submitButton = document.getElementById('submit');

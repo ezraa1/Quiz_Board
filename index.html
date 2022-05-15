@@ -7,64 +7,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz Board</title>
     <link rel="stylesheet" href="index.css" .css>
-    <script defer src="./index.js"></script>
+    <script src="index.js"></script>
    
 </head>
 
 <body>
     <h1>INSTANT QUIZ</h1>
-    <div id="test">
-        <div class="results">
+    <form name="quiz" id="quiz">
+        <div>
     <p>1. What is CSS in full form?</p>
-    <form>
-          <input type="radio" id="a" name="CSS" value="Option a" />  
+              <input type="radio" id="a" name="question1" value="Option a" />  
         <label for="a">Cascading Style Sheet</label><br />
-          <input type="radio" id="b" name="CSS" value="Option b" />  
+          <input type="radio" id="b" name="question1" value="Option b" />  
         <label for="b">Cascading Size Sheet</label><br />
-          <input type="radio" id="c" name="CSS" value="Option c" />  
+          <input type="radio" id="c" name="question1" value="Option c" />  
         <label for="c">Cascading Size Style</label><br />
-        <input type="radio" id="d" name="CSS" value="Option d" />
+        <input type="radio" id="d" name="question1" value="Option d" />
         <label for="d">Cascading Style Style</label>
-    </form>
+    </div>
+    <div>
     <p>2. What is the short form of Hypertext Markup Language?</p>
-    <form>
-          <input type="radio" id="a" name="Markup Language" value="Option a" />  
-        <label for="a">MTHL</label><br />
-          <input type="radio" id="b" name="Markup Language" value="Option b" />  
-        <label for="b">HMLT</label><br />
-          <input type="radio" id="c" name="Markup Language" value="Option c" />  
-        <label for="c">HTML</label><br />
-        <input type="radio" id="d" name="Markup Language" value="Option d" />
-          <label for="c">LMTH</label><br>
-    </form>
-    <p>3. Is C++ a low level Language?</p>
-
-    <form>
-          <input type="radio" id="a" name="C++" value="Option a" />  
-        <label for="a">Yes</label><br />
-          <input type="radio" id="b" name="C++" value="Option b" />  
-        <label for="b">No</label><br />
-          <input type="radio" id="c" name="C++" value="Option c" />  
-        <label for="c">Both</label><br />
-        <input type="radio" id="d" name="C++" value="Option d" />
-          <label for="c">None</label>
-    </form>
-    <p>1. What the other name of Javascript?</p>
-    <form>
-          <input type="radio" id="a" name="Javascript" value="Option a" />  
-        <label for="a">java</label><br />
-          <input type="radio" id="b" name="Javascript" value="Option b" />  
-        <label for="b">js</label><br />
-          <input type="radio" id="c" name="Javascript" value="Option c" />  
-        <label for="c">I don't know</label><br />
-        <input type="radio" id="d" name="CSS" value="Option d" />
-          <label for="c">php</label>
-    </form>
-    <input type="submit" name="submit" value="submitQuiz" onclick="result()">
-</div>
-</div>
     
-               <p><button id="submit"> submit </button></p> 
+          <input type="radio" id="a" name="question2" value="Option a" />  
+        <label for="a">MTHL</label><br />
+          <input type="radio" id="b" name="question2" value="Option b" />  
+        <label for="b">HMLT</label><br />
+          <input type="radio" id="c" name="question2" value="Option c" />  
+        <label for="c">HTML</label><br />
+        <input type="radio" id="d" name="question2" value="Option d" />
+          <label for="c">LMTH</label><br>
+    </div>
+        <div>
+    <p>3. Is C++ a low level Language?</p>
+           <input type="radio" id="a" name="question3" value="Option a" />  
+        <label for="a">Yes</label><br />
+          <input type="radio" id="b" name="question3" value="Option b" />  
+        <label for="b">No</label><br />
+          <input type="radio" id="c" name="question3" value="Option c" />  
+        <label for="c">Both</label><br />
+        <input type="radio" id="d" name="question3" value="Option d" />
+          <label for="c">None</label>
+    </div>
+    <div>
+    <p>1. What the other name of Javascript?</p>
+              <input type="radio" id="a" name="question4" value="Option a" />  
+        <label for="a">java</label><br />
+          <input type="radio" id="b" name="question4" value="Option b" />  
+        <label for="b">js</label><br />
+          <input type="radio" id="c" name="question4" value="Option c" />  
+        <label for="c">I don't know</label><br />
+        <input type="radio" id="d" name="question4" value="Option d" />
+          <label for="c">php</label>
+    </div>
+    <input type="button" value="Submit!" onclick="check()">
+
+
+              
                
 </body>
 
