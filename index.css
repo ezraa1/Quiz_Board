@@ -21,6 +21,7 @@ h1{
 }
 li{
     border: solid;
+    list-style: none;
     
     /* padding: 10px;
     position: relative;
@@ -48,7 +49,11 @@ li{
     margin-right: 32%;
     background-color: red;
     margin-top: -135px;
+   
     
+}
+.q4 li{
+    padding-right: 90px;
 }
 #Submit{
     background-color: black;
