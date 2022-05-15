@@ -25,16 +25,17 @@ function check() {
    
    quiz.style.display = "none";
    if (c <= 2) {
-    result.textContent = `Your score is ${c}. Retake quiz!`
+    result.textContent = (`Your score is ${c}. Retake quiz!`);
+   }
     if (c = 3) {
-        result.textContent = `Your score is ${c}. Fair`
-    } else {
-        result.textContent = `Your score is ${c}. Excellent`
+        result.textContent = (`Your score is ${c}. Fair`);
+    } else (c=>4) ;{
+        result.textContent = (`Your score is ${c}. Excellent`);
     }
 
 }
+ 
 
-}
 function score(){
     var c = 0;
     var numberOfQuestions = 4;
