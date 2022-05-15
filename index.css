@@ -1,8 +1,17 @@
 body{
     background-color: aqua;
     padding-left: 20px;
+    background-image: url("quiz.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     
 }
+
 #quiz {
     font-weight: bold;
+   
+}
+#result{
+    background-color: red;
 }
