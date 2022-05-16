@@ -22,19 +22,22 @@ h1{
 li{
     border: solid;
     list-style: none;
+    background-color: transparent;
+    border-radius: 15%;
+    padding: 10px;
     
     /* padding: 10px;
     position: relative;
     margin-right: 70%; */
 }
 .q1{
- margin-right: 70%;
+ margin-right: 66%;
 }
 .q2{
     float: right;
     margin-top:-135px ; 
-    background-color: yellow;
-    margin-right: 20%;
+    
+    margin-right: 15%;
    
     
     
@@ -42,21 +45,38 @@ li{
 
 .q3{
     margin-top: 30px;
-    margin-right: 70%;
+    margin-right: 66%;
+    
 }
 .q4{
     float: right;
-    margin-right: 32%;
-    background-color: red;
+    margin-right: 15%;
+    
+    
     margin-top: -135px;
+    
+
+   
    
     
 }
 .q4 li{
-    padding-right: 90px;
-}
+    /* padding-left: 140px; */
+    padding: 80px;
+    padding-top: 0px;
+}   
 #Submit{
     background-color: black;
     color: aliceblue;
-    margin-left: 2rem;
+    margin-left: 1rem;
+    float:right;
+    margin-top: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    font-weight: bolder;
+}
+#result{
+    color: red;
+    border-radius: 20%;
+    text-size-adjust: 200%;
 }
